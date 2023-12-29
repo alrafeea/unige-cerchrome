@@ -1,0 +1,28 @@
+iframe {
+}
+
+.popover {
+  max-width: 600px;
+}
+.certify-btn {
+  /* color: #1da1f3; */
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 4px;
+   background-repeat: no-repeat;
+  background-position-x: 75px;
+  background-position-y: center;
+  background-size: 11px;
+  width: 100px;
+  height: 28px;
+  background-size: 23px;
+}
+
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    width: 735px;
+  }
+}

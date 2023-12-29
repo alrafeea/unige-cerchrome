@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+    <script src="popup.js"></script>
+    <script src="vendors/bootstrap.min.js"></script>
+    <script src="vendors/jquery.contextMenu.min.js"></script>
+</head>
+    <style>
+      .container{
+        width: 150px;
+      }
+      .container ul {
+        padding: 10px;
+       list-style: none;
+      }
+      .container ul li{
+        padding: 5px;
+        font-size: 15px;
+      }
+      .container ul li.active{
+		font: bold;
+        color: Navy;
+        cursor: pointer;
+      }
+      .container ul li.disabled{
+        color: lightgray;
+        cursor: no-drop;
+      }
+      .d-none{
+        display: none;
+      }
+    </style>
+  <body>
+   <div id="container" class="container" >
+     <ul id="items-container"></ul>
+     <div id="invalid-link" class="d-none">Invalid link</div>
+   </div>
+  </body>
+
+</html>
